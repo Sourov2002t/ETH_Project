@@ -26,10 +26,16 @@ provided that the address has enough tokens to burn.
 
 This program provides a foundational example of a simple token contract on the Ethereum blockchain, showcasing fundamental Solidity concepts and contract interactions.
 
-# Execution Instructions
+## Getting Started
+
+To run and interact with this program, you can use Remix, an online Solidity Integrated Development Environment (IDE). 
+Here are the steps to get started:
+
+## Execution Instructions
+
 To deploy and interact with the "Bitcoin Cash" contract using Remix, follow these steps:
 
-# Step-by-Step Instructions
+## Step-by-Step Instructions
 
 1. Go to the Remix Website:
    => Open https://remix.ethereum.org/
@@ -41,7 +47,7 @@ To deploy and interact with the "Bitcoin Cash" contract using Remix, follow thes
    
 3. Copy and Paste the Solidity Code:
 
-   =>Copy the Solidity code provided above.
+   =>Copy the Solidity code provided link : https://github.com/Sourov2002t/ETH_Project/blob/main/Token.sol which is visible in github page.
    =>Paste it into the newly created BifrostToken.sol file in Remix.
    
 4. Compile the Code:

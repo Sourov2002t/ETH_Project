@@ -78,12 +78,16 @@ To deploy and interact with the "Bitcoin Cash" contract using Remix, follow thes
 
  ## Mint Tokens:
    =>In the deployed contract section, find the mint function.
+   
    =>Enter the recipient's address and the amount of tokens to mint.
+   
    =>Click on the transact button to mint tokens.
       
  ## Burn Tokens:
    =>Find the burn function.
+   
    =>Enter the amount to burn.
+   
    =>Click on the transact button to burn tokens.
        
 8. Check Balances:

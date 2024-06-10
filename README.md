@@ -6,19 +6,19 @@ Simplifying issues like supply management, balance tracking, and token generatio
 
 ### The contract includes the following key features:
 
- Token Details:
+** Token Details:**
 -tokenName: Public variable storing the name of the token, "Bitcoin Cash".
 -tokenAbbrv: Public variable storing the token's abbreviation, "BCH".
 -totalSupply: Public variable that tracks the total supply of the token, initially set to 0.
 
- Balances Mapping:
+** Balances Mapping:**
 -balances: A mapping that associates each address with its respective token balance.
 
- Mint Function:
+ **Mint Function:**
 -mint(address to, uint256 amount): Allows the creation of new tokens. Increases the totalSupply by the specified amount and credits the amount to the balance of the to address.
 
- Burn Function:
-
+ **Burn Function:
+**
 -burn(uint256 amount): Allows the destruction of existing tokens. Decreases the totalSupply by the specified amount and debits the amount from the balance of from msg.sender, provided that the address has enough tokens to burn.
 
 This program provides a foundational example of a simple token contract on the Ethereum blockchain, showcasing fundamental Solidity concepts and contract interactions.

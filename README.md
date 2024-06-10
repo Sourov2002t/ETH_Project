@@ -2,11 +2,9 @@
 
 # Overview / Description 
 Simplifying issues like supply management, balance tracking, and token generation, the "Bitcoin Cash" contract is a simple Ethereum token written in Solidity. 
-"Bitcoin Cash" is the name of the token defined in the contract, and its symbol is "BCH". It has features to mint new tokens and burn old ones, as well as mappings to keep track of balances 
-and public variables to hold token information.is a fundamental Ethereum token known as "Bitcoin Cash" and denoted by the sign "BCH". Token balance tracking for Ethereum addresses is also included, 
-along with the ability to issue and burn tokens. A total of 0 tokens are initially available.
+"Bitcoin Cash" is the name of the token defined in the contract, and its symbol is "BCH". It has features to mint new tokens and burn old ones, as well as mappings to keep track of balances and public variables to hold token information.is a fundamental Ethereum token known as "Bitcoin Cash" and denoted by the sign "BCH". Token balance tracking for Ethereum addresses is also included, along with the ability to issue and burn tokens. A total of 0 tokens are initially available.
 
-The contract includes the following key features:
+### The contract includes the following key features:
 
  Token Details:
 -tokenName: Public variable storing the name of the token, "Bitcoin Cash".
@@ -21,8 +19,7 @@ The contract includes the following key features:
 
  Burn Function:
 
--burn(uint256 amount): Allows the destruction of existing tokens. Decreases the totalSupply by the specified amount and debits the amount from the balance of the from msg.sender, 
-provided that the address has enough tokens to burn.
+-burn(uint256 amount): Allows the destruction of existing tokens. Decreases the totalSupply by the specified amount and debits the amount from the balance of from msg.sender, provided that the address has enough tokens to burn.
 
 This program provides a foundational example of a simple token contract on the Ethereum blockchain, showcasing fundamental Solidity concepts and contract interactions.
 
@@ -47,7 +44,7 @@ To deploy and interact with the "Bitcoin Cash" contract using Remix, follow thes
    
 3. Copy and Paste the Solidity Code:
 
-   =>Copy the Solidity code provided link : https://github.com/Sourov2002t/ETH_Project/blob/main/Token.sol which is visible in github page.
+   =>Copy the Solidity code provided link : https://github.com/Sourov2002t/ETH_Project/blob/main/Token.sol which is visible on github page.
    =>Paste it into the newly created BifrostToken.sol file in Remix.
    
 4. Compile the Code:
@@ -87,7 +84,7 @@ By following these instructions, you can successfully deploy and interact with t
 
 # Authors
  => Sourov Kumar Nandi
-     Github  : @Sourov Kumar Nandi( https://github.com/Sourov2002t )
+     Github  : https://github.com/Sourov2002t 
      LinkeIn : https://www.linkedin.com/in/sourov-kumar-nandi-77292924b
 # License 
   This project is licensed under the MIT License - see the link ( https://github.com/Sourov2002t/ETH_Project/blob/main/LICENSE ) for details.

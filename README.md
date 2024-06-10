@@ -7,18 +7,24 @@ Simplifying issues like supply management, balance tracking, and token generatio
 ### The contract includes the following key features:
 
 ** Token Details:**
+
 -tokenName: Public variable storing the name of the token, "Bitcoin Cash".
+
 -tokenAbbrv: Public variable storing the token's abbreviation, "BCH".
+
 -totalSupply: Public variable that tracks the total supply of the token, initially set to 0.
 
 ** Balances Mapping:**
+
 -balances: A mapping that associates each address with its respective token balance.
 
  **Mint Function:**
+ 
 -mint(address to, uint256 amount): Allows the creation of new tokens. Increases the totalSupply by the specified amount and credits the amount to the balance of the to address.
 
  **Burn Function:
 **
+
 -burn(uint256 amount): Allows the destruction of existing tokens. Decreases the totalSupply by the specified amount and debits the amount from the balance of from msg.sender, provided that the address has enough tokens to burn.
 
 This program provides a foundational example of a simple token contract on the Ethereum blockchain, showcasing fundamental Solidity concepts and contract interactions.
@@ -35,32 +41,40 @@ To deploy and interact with the "Bitcoin Cash" contract using Remix, follow thes
 ## Step-by-Step Instructions
 
 1. Go to the Remix Website:
+   
    => Open https://remix.ethereum.org/
    
-2. Create a New File:
+3. Create a New File:
 
    => Click on the "+" icon in the left-hand sidebar.
+   
    => Name the file ETH Proof/project.sol.
    
-3. Copy and Paste the Solidity Code:
+5. Copy and Paste the Solidity Code:
 
    =>Copy the Solidity code provided link : https://github.com/Sourov2002t/ETH_Project/blob/main/Token.sol which is visible on github page.
+   
    =>Paste it into the newly created BifrostToken.sol file in Remix.
    
-4. Compile the Code:
+7. Compile the Code:
 
    => Click on the "Solidity Compiler" tab in the left-hand sidebar.
+   
    => Ensure the compiler version is set to 0.8.9 (or another compatible version).
+   
    =>Click on the "Compile project.sol" button.
    
-5. Deploy the Contract:
+9. Deploy the Contract:
 
    =>Click on the "Deploy & Run Transactions" tab in the left-hand sidebar.
+   
    =>Ensure the environment is set to "Remix VM (London)" or a suitable network.
+   
    =>Select the Bitcoin Cash contract from the dropdown menu.
+   
    =>Click on the "Deploy" button.
    
-6. Interact with the Contract:
+11. Interact with the Contract:
 
   # Mint Tokens:
       =>In the deployed contract section, find the mint function.

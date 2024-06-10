@@ -50,13 +50,13 @@ To deploy and interact with the "Bitcoin Cash" contract using Remix, follow thes
    
    => Name the file ETH Proof/project.sol.
    
-5. Copy and Paste the Solidity Code:
+4. Copy and Paste the Solidity Code:
 
    =>Copy the Solidity code provided link : https://github.com/Sourov2002t/ETH_Project/blob/main/Token.sol which is visible on github page.
    
    =>Paste it into the newly created BifrostToken.sol file in Remix.
    
-7. Compile the Code:
+5. Compile the Code:
 
    => Click on the "Solidity Compiler" tab in the left-hand sidebar.
    
@@ -64,7 +64,7 @@ To deploy and interact with the "Bitcoin Cash" contract using Remix, follow thes
    
    =>Click on the "Compile project.sol" button.
    
-9. Deploy the Contract:
+6. Deploy the Contract:
 
    =>Click on the "Deploy & Run Transactions" tab in the left-hand sidebar.
    
@@ -74,7 +74,7 @@ To deploy and interact with the "Bitcoin Cash" contract using Remix, follow thes
    
    =>Click on the "Deploy" button.
    
-11. Interact with the Contract:
+7. Interact with the Contract:
 
   # Mint Tokens:
       =>In the deployed contract section, find the mint function.
@@ -86,11 +86,11 @@ To deploy and interact with the "Bitcoin Cash" contract using Remix, follow thes
        =>Enter the amount to burn.
        =>Click on the transact button to burn tokens.
        
-7. Check Balances:
+8. Check Balances:
 
     => Enter an address into the balances function and click on the call button to see the balance.
    
-8> View Token Details:
+9.  View Token Details:
 
  => Click on the tokenName, tokenAbbrv, and totalSupply buttons to display their values.
  

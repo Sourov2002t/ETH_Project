@@ -90,5 +90,5 @@ By following these instructions, you can successfully deploy and interact with t
      Github  : @Sourov Kumar Nandi( https://github.com/Sourov2002t )
      LinkeIn : https://www.linkedin.com/in/sourov-kumar-nandi-77292924b
 # License 
-  This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+  This project is licensed under the MIT License - see the link ( https://github.com/Sourov2002t/ETH_Project/blob/main/LICENSE ) for details.
 

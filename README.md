@@ -84,8 +84,10 @@ By following these instructions, you can successfully deploy and interact with t
 
 # Authors
  => Sourov Kumar Nandi
-     Github  : https://github.com/Sourov2002t 
-     LinkeIn : https://www.linkedin.com/in/sourov-kumar-nandi-77292924b
+ 
+   Github  : https://github.com/Sourov2002t 
+     
+   LinkeIn : https://www.linkedin.com/in/sourov-kumar-nandi-77292924b
 # License 
   This project is licensed under the MIT License - see the link ( https://github.com/Sourov2002t/ETH_Project/blob/main/LICENSE ) for details.
 
